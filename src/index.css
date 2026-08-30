@@ -28,3 +28,51 @@
   padding: 0 1rem;
   list-style: none;
 }
+
+/* Hero Section */
+
+.hero-section {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.hero-section-text {
+  width: 43%;
+}
+
+.hero-header-container {
+  margin-top: 2rem;
+}
+
+.hero-header {
+  font-size: 90px;
+}
+
+.hero-heading {
+  margin-bottom: 1rem;
+  line-height: 25px;
+}
+
+.hero-description {
+  line-height: 25px;
+}
+
+.hero-btn {
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  padding: 8px;
+  border: 1px solid black;
+  margin-top: 2rem;
+}
+
+/* Mobile response */
+@media (max-width: 768px) {
+  .hero-header {
+    font-size: 60px;
+  }
+
+  .hero-section-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
