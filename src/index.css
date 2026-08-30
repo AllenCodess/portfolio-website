@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 1.4rem 0;
+}
+
+/* NavBar */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Fira Sans", sans-serif;
+  border-bottom: gray solid 2px;
+}
+
+.right-nav-list {
+  display: flex;
+}
+
+.right-nav-list-item {
+  padding: 0 1rem;
+  list-style: none;
+}

@@ -1,5 +1,12 @@
+import "./index.css";
+import NavBar from "./componenets/NavBar";
+
 function App() {
-  return <> Portfolio Webiste</>;
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 }
 
 export default App;
