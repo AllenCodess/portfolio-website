@@ -1,4 +1,8 @@
+import Hamburger from "hamburger-react";
+import { useState } from "react";
+
 const NavBar = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <div className="navbar-container container">
@@ -6,6 +10,9 @@ const NavBar = () => {
           <h2 className="nav-name">Allen Huntley</h2>
         </div>
         <div className="right-nav">
+          <div className="burger-menu">
+            <Hamburger toggled={isOpen} toggle={setOpen} />
+          </div>
           <ul className="right-nav-list">
             <li className="right-nav-list-item">About</li>
             <li className="right-nav-list-item">Projects</li>
@@ -17,7 +24,7 @@ const NavBar = () => {
         <div className="hero-section-text">
           <div className="hero-header-container">
             <h1 className="hero-header">FULL-STACK</h1>
-            <h1 className="hero-header">WEB DEVELOPER.</h1>
+            <h1 className="hero-header-2">WEB DEVELOPER.</h1>
           </div>
           <h4 className="hero-heading">
             I build secure, scalable, and user friendly web applications for founders and small

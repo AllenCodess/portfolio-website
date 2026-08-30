@@ -29,6 +29,10 @@
   list-style: none;
 }
 
+.burger-menu {
+  display: none;
+}
+
 /* Hero Section */
 
 .hero-section {
@@ -43,7 +47,8 @@
   margin-top: 2rem;
 }
 
-.hero-header {
+.hero-header,
+.hero-header-2 {
   font-size: 90px;
 }
 
@@ -67,12 +72,28 @@
 
 /* Mobile response */
 @media (max-width: 768px) {
-  .hero-header {
+  .hero-header,
+  .hero-header-2 {
     font-size: 60px;
+  }
+  .hero-header-2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-heading {
+    margin-bottom: 1.5rem;
   }
 
   .hero-section-text {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .right-nav-list {
+    display: none;
   }
 }
