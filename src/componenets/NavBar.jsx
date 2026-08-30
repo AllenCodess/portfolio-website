@@ -13,7 +13,7 @@ const NavBar = () => {
           <div className="burger-menu">
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
-          <ul className="right-nav-list">
+          <ul className={`right-nav-list ${isOpen ? "open" : ""}`}>
             <li className="right-nav-list-item">About</li>
             <li className="right-nav-list-item">Projects</li>
             <li className="right-nav-list-item">Contact</li>

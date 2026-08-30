@@ -72,6 +72,10 @@
 
 /* Mobile response */
 @media (max-width: 768px) {
+  .navbar-container {
+    width: 90%;
+    margin: 0 auto;
+  }
   .hero-header,
   .hero-header-2 {
     font-size: 60px;
@@ -95,5 +99,24 @@
 
   .right-nav-list {
     display: none;
+  }
+
+  .right-nav-list.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+    background: white;
+    padding: 1.5rem 0;
+    border-bottom: 2px solid gray;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .right-nav-list-item {
+    font-size: 1.2rem;
+    cursor: pointer;
   }
 }
