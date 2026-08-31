@@ -393,4 +393,8 @@ textarea {
   .contact-left {
     flex: 1;
   }
+
+  .contact-btn {
+    width: 40%;
+  }
 }
