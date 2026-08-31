@@ -36,11 +36,11 @@ const Contact = () => {
               <label htmlFor="name">Your Name:</label>
               <input placeholder="Name" type="text" name="name" id="name" />
               <label htmlFor="email"></label>
-              <input placeholder="Email" type="text" name="email" id="email" />
+              <input placeholder="Email" type="email" name="email" id="email" />
             </div>
             <label htmlFor="subject"></label>
             <input placeholder="Subject" type="text" name="subject" id="subject" />
-            <label htmlFor="name">Message</label>
+            <label htmlFor="message">Message</label>
             <textarea placeholder="Message" name="message" id="message" />
             <button className="contact-btn" type="submit">
               Send Message
