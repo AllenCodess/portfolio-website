@@ -11,11 +11,7 @@ const Projects = () => {
         </div>
         <div className="projects-grid">
           <div className="project">
-            <img
-              className="project-img"
-              src="../src/assets/huntleys.png"
-              alt="huntleys project photo"
-            />
+            <img className="project-img" src="/huntleys.png" alt="huntleys project photo" />
             <div className="project-container">
               <h3 className="project-title">Huntley's Sauces</h3>
               <p className="project-type">Full-Stack E-Commerce Site</p>
@@ -63,11 +59,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="project">
-            <img
-              className="project-img"
-              src="../src/assets/jobtrack.png"
-              alt="huntleys project photo"
-            />
+            <img className="project-img" src="/jobtrack.png" alt="jobtrackhq project photo" />
             <div className="project-container">
               <h3 className="project-title">JobTrackHQ</h3>
               <p className="project-type">Full-Stack Web App</p>
