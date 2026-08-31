@@ -72,8 +72,8 @@ const Projects = () => {
               <h3 className="project-title">JobTrackHQ</h3>
               <p className="project-type">Full-Stack Web App</p>
               <p className="project-description">
-                A full-featured job application tracker that helps users organize, manage, anad
-                track their job search in one place.
+                A full-featured job application tracker that helps users organize, manage, and track
+                their job search in one place.
               </p>
               <ul className="project-list">
                 <li className="project-list-item">

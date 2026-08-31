@@ -7,24 +7,46 @@ const Contact = () => {
     <>
       <div className="contact-container container">
         <div className="contact-left">
-          <h4 className="contact-subheader">LET'S WORK TOGETHER</h4>
-          <h1 className="contact-header">Have a project in mind?</h1>
+          <h4 className="contact-subheader purple">LET'S WORK TOGETHER</h4>
+          <h2 className="contact-header">Have a project in mind?</h2>
           <p className="contact-description">
             I'm always open to discussing new opportunities and interesting projects.
           </p>
           <ul className="contact-list">
             <li className="list-items">
-              <FontAwesomeIcon icon={faEnvelope} className="" />
+              <a className="list-link" href="mailto:allenhuntley96@gmail.com">
+                <FontAwesomeIcon icon={faEnvelope} className="" />
+              </a>
             </li>
             <li className="list-items">
-              <FontAwesomeIcon icon={faLinkedin} className="" />
+              <a className="list-link" href="https://www.linkedin.com/in/allen-h-444795190/">
+                <FontAwesomeIcon icon={faLinkedin} className="" />
+              </a>
             </li>
             <li className="list-items">
-              <FontAwesomeIcon icon={faGithubSquare} className="" />
+              <a className="list-link" href="https://github.com/AllenCodess">
+                <FontAwesomeIcon icon={faGithubSquare} className="" />
+              </a>
             </li>
           </ul>
         </div>
-        <div className="contact-right"></div>
+        <div className="contact-right">
+          <form name="contact form" method="POST" data-netlify="true">
+            <div className="two-inputs">
+              <label for="name">Your Name:</label>
+              <input placeholder="Name" type="text" name="name" id="name" />
+              <label for="email"></label>
+              <input placeholder="Email" type="text" name="email" id="email" />
+            </div>
+            <label for="subject"></label>
+            <input placeholder="Subject" type="text" name="subject" id="subject" />
+            <label for="name">Message</label>
+            <textarea placeholder="Message" type="text" name="message" id="message" />
+            <button className="contact-btn" type="submit">
+              Send Message
+            </button>
+          </form>
+        </div>
       </div>
     </>
   );
