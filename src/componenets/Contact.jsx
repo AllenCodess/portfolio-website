@@ -31,7 +31,7 @@ const Contact = () => {
           </ul>
         </div>
         <div className="contact-right">
-          <form name="contact" method="POST" netlify>
+          <form name="contact" method="POST">
             <div className="two-inputs">
               <label htmlFor="name">Your Name:</label>
               <input placeholder="Name" type="text" name="name" id="name" />
