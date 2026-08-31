@@ -31,17 +31,17 @@ const Contact = () => {
           </ul>
         </div>
         <div className="contact-right">
-          <form name="contact form" method="POST" data-netlify="true">
+          <form name="contact" method="POST" netlify>
             <div className="two-inputs">
-              <label for="name">Your Name:</label>
+              <label htmlFor="name">Your Name:</label>
               <input placeholder="Name" type="text" name="name" id="name" />
-              <label for="email"></label>
+              <label htmlFor="email"></label>
               <input placeholder="Email" type="text" name="email" id="email" />
             </div>
-            <label for="subject"></label>
+            <label htmlFor="subject"></label>
             <input placeholder="Subject" type="text" name="subject" id="subject" />
-            <label for="name">Message</label>
-            <textarea placeholder="Message" type="text" name="message" id="message" />
+            <label htmlFor="name">Message</label>
+            <textarea placeholder="Message" name="message" id="message" />
             <button className="contact-btn" type="submit">
               Send Message
             </button>
