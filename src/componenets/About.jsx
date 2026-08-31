@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShield } from "@fortawesome/free-solid-svg-icons";
+import { faShield, faComputer, faCode, faPuzzlePiece } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   return (
@@ -23,7 +23,7 @@ const About = () => {
         <div className="about-list">
           <div className="about-list-item">
             <div className="about-list-left">
-              <FontAwesomeIcon icon={faShield} className="purple" />
+              <FontAwesomeIcon icon={faShield} className="purple icons" />
             </div>
             <div className="about-list-right">
               <h4>Cybersecurity Background</h4>
@@ -35,37 +35,37 @@ const About = () => {
           </div>
           <div className="about-list-item">
             <div className="about-list-left">
-              <FontAwesomeIcon icon={faShield} className="purple" />
+              <FontAwesomeIcon icon={faComputer} className="purple icons" />
             </div>
             <div className="about-list-right">
-              <h4>Cybersecurity Background</h4>
+              <h4>Real-World Experience</h4>
               <p className="about-paragraph">
-                Expereinced in secuirty testing, networking, and risk management with a strong focus
-                on secure development practices.
+                From IT operations to offensive security, I've worked in fast-paced environments
+                that sharpened my troubleshooting and problem-solving.
               </p>
             </div>
           </div>
           <div className="about-list-item">
             <div className="about-list-left">
-              <FontAwesomeIcon icon={faShield} className="purple" />
+              <FontAwesomeIcon icon={faCode} className="purple icons" />
             </div>
             <div className="about-list-right">
-              <h4>Cybersecurity Background</h4>
+              <h4>Full-Stack Developer</h4>
               <p className="about-paragraph">
-                Expereinced in secuirty testing, networking, and risk management with a strong focus
-                on secure development practices.
+                I build responsive frontends with React and powerful backends with Node.js, Express,
+                and MongoDB. End-to-End, production ready.
               </p>
             </div>
           </div>
           <div className="about-list-item">
             <div className="about-list-left">
-              <FontAwesomeIcon icon={faShield} className="purple" />
+              <FontAwesomeIcon icon={faPuzzlePiece} className="purple icons" />
             </div>
             <div className="about-list-right">
-              <h4>Cybersecurity Background</h4>
+              <h4>Problem Solver</h4>
               <p className="about-paragraph">
-                Expereinced in secuirty testing, networking, and risk management with a strong focus
-                on secure development practices.
+                I break down complex systems and turn ideas into clean, efficient solutions that
+                deliver real value to users.
               </p>
             </div>
           </div>
