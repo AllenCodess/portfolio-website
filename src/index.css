@@ -219,7 +219,7 @@
 
 .contact-container {
   font-family: "Fira Sans", sans-serif;
-  background-color: #e9e1ff;
+  background-color: #f5f1ff;
   border-radius: 8px;
   padding: 1rem;
   margin-top: 4rem;
@@ -389,5 +389,8 @@ textarea {
   }
   .project-description {
     width: 70%;
+  }
+  .contact-left {
+    flex: 1;
   }
 }

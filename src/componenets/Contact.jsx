@@ -5,7 +5,7 @@ import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 const Contact = () => {
   return (
     <>
-      <div className="contact-container container">
+      <div className="contact-container container" id="contact">
         <div className="contact-left">
           <h4 className="contact-subheader purple">LET'S WORK TOGETHER</h4>
           <h2 className="contact-header">Have a project in mind?</h2>

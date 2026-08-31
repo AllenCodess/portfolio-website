@@ -14,9 +14,15 @@ const NavBar = () => {
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
           <ul className={`right-nav-list ${isOpen ? "open" : ""}`}>
-            <li className="right-nav-list-item">About</li>
-            <li className="right-nav-list-item">Projects</li>
-            <li className="right-nav-list-item">Contact</li>
+            <li className="right-nav-list-item">
+              <a href="#about">About</a>
+            </li>
+            <li className="right-nav-list-item">
+              <a href="#projects">Projects</a>
+            </li>
+            <li className="right-nav-list-item">
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
       </div>

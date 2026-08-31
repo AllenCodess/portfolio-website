@@ -4,7 +4,7 @@ import { faShield, faComputer, faCode, faPuzzlePiece } from "@fortawesome/free-s
 const About = () => {
   return (
     <>
-      <div className="about-me-section container">
+      <div className="about-me-section container" id="about">
         <div className="about-intro">
           <div className="about-left">
             <h2 className="about-header-one">About Me</h2>

@@ -4,7 +4,7 @@ import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
 const Projects = () => {
   return (
     <>
-      <div className="projects-container container">
+      <div className="projects-container container" id="projects">
         <div className="projects-intro">
           <h4 className="pre-project-header purple">FEATURED PROJECTS</h4>
           <h2 className="projects-header">My Work</h2>

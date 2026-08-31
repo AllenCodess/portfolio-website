@@ -19,9 +19,11 @@ const Hero = () => {
             Building applications that are not only functional and beautiful, but also secure,
             reliable, and maintainable.
           </p>
-          <button className="hero-btn">
-            Download Resume <FontAwesomeIcon icon={faDownload} />
-          </button>
+          <a href="/WDPortfolioResume.pdf" download>
+            <button className="hero-btn">
+              Download Resume <FontAwesomeIcon icon={faDownload} />
+            </button>
+          </a>
         </div>
       </div>
     </>
