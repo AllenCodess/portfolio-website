@@ -31,6 +31,7 @@ const Contact = () => {
           </ul>
         </div>
         <div className="contact-right">
+          <input type="hidden" name="form-name" value="contact" />
           <form name="contact" method="POST">
             <div className="two-inputs">
               <label htmlFor="name">Your Name:</label>
