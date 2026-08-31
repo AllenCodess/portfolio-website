@@ -70,6 +70,52 @@
   margin-top: 2rem;
 }
 
+/* About Section */
+
+.about-intro {
+  border: solid 2px red;
+  width: 70%;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  column-gap: 20rem;
+  margin-bottom: 5rem;
+}
+
+.about-header-one {
+  color: #4400ff;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+
+.border {
+  height: 1px;
+  width: 50px;
+  border: solid 1.8px #4400ff;
+  margin-top: 0.4rem;
+}
+
+.about-text {
+  line-height: 25px;
+}
+
+.about-list {
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.about-list-item {
+  display: flex;
+}
+
+.about-paragraph {
+  line-height: 25px;
+}
+
+.purple {
+  color: #4400ff;
+}
+
 /* Mobile response */
 @media (max-width: 768px) {
   .navbar-container {
