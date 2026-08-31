@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+
 const Hero = () => {
   return (
     <>
@@ -16,7 +19,9 @@ const Hero = () => {
             Building applications that are not only functional and beautiful, but also secure,
             reliable, and maintainable.
           </p>
-          <button className="hero-btn">Download Resume</button>
+          <button className="hero-btn">
+            Download Resume <FontAwesomeIcon icon={faDownload} />
+          </button>
         </div>
       </div>
     </>

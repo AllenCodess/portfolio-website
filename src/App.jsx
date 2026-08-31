@@ -3,6 +3,7 @@ import NavBar from "./componenets/NavBar";
 import Hero from "./componenets/Hero";
 import About from "./componenets/About";
 import Projects from "./componenets/Projects";
+import Contact from "./componenets/Contact";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <Contact />
     </>
   );
 }

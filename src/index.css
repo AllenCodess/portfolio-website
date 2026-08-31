@@ -215,6 +215,14 @@
   margin-top: auto;
 }
 
+.contact-container {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #e9e1ff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
 /* Mobile response */
 @media (max-width: 768px) {
   .navbar-container {
