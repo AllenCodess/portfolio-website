@@ -397,4 +397,8 @@ textarea {
   .contact-btn {
     width: 40%;
   }
+
+  .contact-container {
+    flex-direction: column;
+  }
 }
