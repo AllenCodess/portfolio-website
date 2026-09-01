@@ -182,6 +182,10 @@
   flex: 1;
 }
 
+.project-title {
+  margin-top: 0.4rem;
+}
+
 .project-list {
   list-style: none;
   margin-bottom: 2rem;
@@ -194,9 +198,14 @@
 
 .project-btn {
   background-color: white;
-  border: none;
-  padding: 3px;
+  border-radius: 2px;
+  border: 1px solid grey;
+  padding: 5px;
   width: 100%;
+}
+
+.new-project-btn-container {
+  display: flex;
 }
 
 .project-btn-link {

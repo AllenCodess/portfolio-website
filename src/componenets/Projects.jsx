@@ -40,22 +40,22 @@ const Projects = () => {
                   use
                 </li>
               </ul>
-              <div className="btn-container">
-                <button className="project-btn">
-                  <a href="https://huntleysauce.com/" target="_blank" className="project-btn-link">
-                    Live Site
-                  </a>
-                </button>
-                <button className="project-btn">
-                  <a
-                    target="_blank"
-                    href="https://github.com/AllenCodess/huntleys-website"
-                    className="project-btn-link"
-                  >
-                    GitHub Repo
-                  </a>
-                </button>
-              </div>
+            </div>
+            <div className="btn-container">
+              <button className="project-btn">
+                <a href="https://huntleysauce.com/" target="_blank" className="project-btn-link">
+                  Live Site
+                </a>
+              </button>
+              <button className="project-btn">
+                <a
+                  target="_blank"
+                  href="https://github.com/AllenCodess/huntleys-website"
+                  className="project-btn-link"
+                >
+                  GitHub Repo
+                </a>
+              </button>
             </div>
           </div>
           <div className="project">
@@ -84,22 +84,22 @@ const Projects = () => {
                   Mongoose
                 </li>
               </ul>
-              <div className="btn-container">
-                <button className="project-btn">
-                  <a href="https://jobtrackhq.com/" target="_blank" className="project-btn-link">
-                    Live Site
-                  </a>
-                </button>
-                <button className="project-btn">
-                  <a
-                    target="_blank"
-                    href="https://github.com/AllenCodess/job-tracker/tree/main"
-                    className="project-btn-link"
-                  >
-                    GitHub Repo
-                  </a>
-                </button>
-              </div>
+            </div>
+            <div className="new-project-btn-container">
+              <button className="project-btn">
+                <a href="https://jobtrackhq.com/" target="_blank" className="project-btn-link">
+                  Live Site
+                </a>
+              </button>
+              <button className="project-btn">
+                <a
+                  target="_blank"
+                  href="https://github.com/AllenCodess/job-tracker/tree/main"
+                  className="project-btn-link"
+                >
+                  GitHub Repo
+                </a>
+              </button>
             </div>
           </div>
         </div>
