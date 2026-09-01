@@ -64,12 +64,11 @@ const Projects = () => {
               <h3 className="project-title">JobTrackHQ</h3>
               <p className="project-type">Full-Stack Web App</p>
               <p className="project-description">
-                A full-featured job application tracker that helps users organize, manage, and track
-                their job search in one place.
+                Built and deployed a full-featured job tracker to streamline my own job search.
               </p>
               <ul className="project-list">
                 <li className="project-list-item">
-                  <FontAwesomeIcon icon={faSquareCheck} className="green" /> Secure authentiaction
+                  <FontAwesomeIcon icon={faSquareCheck} className="green" /> Secure authentication
                   (JWT)
                 </li>
                 <li className="project-list-item">

@@ -13,10 +13,11 @@ const About = () => {
           </div>
           <div className="about-right">
             <p className="about-text">
-              I'm a full stack developer with a background in cybersecurity and IT support. I enjoy
-              solving complex problems and building web applications that are fast, secure, and
-              built to scale. I care about clean code, great user experience, and shipping real
-              solutions that make an impact.
+              Flatiron School Software Engineering Bootcamp graduate (January 2026). I'm a full
+              stack developer with a background in cybersecurity and IT support. I enjoy solving
+              complex problems and building web applications that are fast, secure, and built to
+              scale. I care about clean code, great user experience, and shipping real solutions
+              that make an impact.
             </p>
           </div>
         </div>
@@ -28,7 +29,7 @@ const About = () => {
             <div className="about-list-right">
               <h4>Cybersecurity Background</h4>
               <p className="about-paragraph">
-                Expereinced in secuirty testing, networking, and risk management with a strong focus
+                Experienced in security testing, networking, and risk management with a strong focus
                 on secure development practices.
               </p>
             </div>

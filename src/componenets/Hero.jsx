@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hero-section container">
         <div className="hero-section-text">
           <div className="hero-header-container">
-            <h1 className="hero-header">FULL-STACK</h1>
+            <h1 className="hero-header"> JUNIOR FULL-STACK</h1>
             <h1 className="hero-header-2">WEB DEVELOPER.</h1>
           </div>
           <h4 className="hero-heading">
