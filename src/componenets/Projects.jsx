@@ -102,6 +102,55 @@ const Projects = () => {
               </button>
             </div>
           </div>
+          <div className="project">
+            <img className="project-img" src="/github.png" alt="krearlylearning project photo" />
+            <div className="project-container">
+              <h3 className="project-title">KR Early Learning</h3>
+              <p className="project-type">Full-Stack Web App</p>
+              <p className="project-description">
+                Full-stack daycare site with an admin portal for posting announcements and uploading
+                documents, and a parent portal to view them.
+              </p>
+              <ul className="project-list">
+                <li className="project-list-item">
+                  <FontAwesomeIcon icon={faSquareCheck} className="green" /> Secure authentication
+                  (JWT)
+                </li>
+                <li className="project-list-item">
+                  <FontAwesomeIcon icon={faSquareCheck} className="green" /> Role-based access
+                  (admin vs. parent){" "}
+                </li>
+                <li className="project-list-item">
+                  <FontAwesomeIcon icon={faSquareCheck} className="green" /> Document uploads to
+                  Cloudinary with Multer{" "}
+                </li>
+                <li className="project-list-item">
+                  <FontAwesomeIcon icon={faSquareCheck} className="green" /> REST API built with
+                  Nodejs & Express
+                </li>
+                <li className="project-list-item">
+                  <FontAwesomeIcon icon={faSquareCheck} className="green" /> MongoDB database with
+                  Mongoose
+                </li>
+              </ul>
+            </div>
+            <div className="new-project-btn-container">
+              <button className="project-btn">
+                <a href="https://krearlylearning.com/" target="_blank" className="project-btn-link">
+                  Live Site
+                </a>
+              </button>
+              <button className="project-btn">
+                <a
+                  target="_blank"
+                  href="https://github.com/AllenCodess/krEarlyLearning"
+                  className="project-btn-link"
+                >
+                  GitHub Repo
+                </a>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </>
