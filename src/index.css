@@ -69,6 +69,7 @@
   padding: 8px;
   border: 1px solid black;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 /* About Section */
@@ -316,6 +317,7 @@ textarea {
   border: black solid 1px;
   border-radius: 8px;
   width: 20%;
+  cursor: pointer;
 }
 
 /* Mobile response */
