@@ -198,14 +198,6 @@
   margin-bottom: 0.2rem;
 }
 
-.project-btn {
-  background-color: white;
-  border-radius: 2px;
-  border: 1px solid grey;
-  padding: 5px;
-  width: 100%;
-}
-
 .new-project-btn-container {
   display: flex;
 }
