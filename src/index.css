@@ -60,6 +60,7 @@
 
 .hero-description {
   line-height: 25px;
+  margin-bottom: 1rem;
 }
 
 .hero-btn {
@@ -70,6 +71,7 @@
   border: 1px solid black;
   margin-top: 2rem;
   cursor: pointer;
+  text-decoration: none;
 }
 
 /* About Section */
